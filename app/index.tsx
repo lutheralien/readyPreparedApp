@@ -4,7 +4,7 @@ import React from 'react';
 const Page = () => {
   return (
     <View>
-      <Text>hi</Text>
+      <Text>Hello Lutheralien</Text>
     </View>
   );
 };
