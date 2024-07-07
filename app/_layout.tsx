@@ -18,6 +18,13 @@ export default function RootLayoutNav() {
               header: () => <CustomHeader />,
             }}
           />
+          <Stack.Screen
+            name="(modal)/filter"
+            options={{
+              presentation: 'modal'
+            }}
+           
+          />
         </Stack>
       </BottomSheetModalProvider>
     </GestureHandlerRootView>
